@@ -1,6 +1,6 @@
 # Universe Visualizer
 
-Universe Visualizer is a premium observatory-style web application for exploring Earth orbit, the Solar System, near-Earth objects, and curated deep-space content from one interface. ISS tracking is included, but it is deliberately one feature inside a broader live-data-driven space visualization platform.
+Universe Visualizer is a application for exploring Earth orbit, the Solar System, near-Earth objects, and curated deep-space content from one interface. ISS tracking is included, but it is deliberately one feature inside a broader live-data-driven space visualization platform.
 
 ## What Is Included
 - React + TypeScript + Vite frontend with CesiumJS as the primary 3D engine
