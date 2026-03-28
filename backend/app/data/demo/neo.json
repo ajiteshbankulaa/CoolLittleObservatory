@@ -1,0 +1,79 @@
+{
+  "objects": [
+    {
+      "id": "neo-2026-ab1",
+      "name": "(2026 AB1)",
+      "designation": "(2026 AB1)",
+      "is_hazardous": false,
+      "close_approach": "2026-03-29T04:15:00+00:00",
+      "miss_distance_km": 1840000.0,
+      "relative_velocity_kps": 12.6,
+      "estimated_diameter_min_m": 65.0,
+      "estimated_diameter_max_m": 140.0,
+      "orbit_class": "Apollo",
+      "position_au": {"x": 1.01, "y": 0.0, "z": 0.012},
+      "description": "Curated demo NEO showing a moderate close approach from the Apollo class.",
+      "tags": ["neo", "apollo", "close-approach"]
+    },
+    {
+      "id": "neo-99942-apophis",
+      "name": "99942 Apophis",
+      "designation": "99942 Apophis",
+      "is_hazardous": true,
+      "close_approach": "2026-04-14T19:45:00+00:00",
+      "miss_distance_km": 32150000.0,
+      "relative_velocity_kps": 7.4,
+      "estimated_diameter_min_m": 340.0,
+      "estimated_diameter_max_m": 450.0,
+      "orbit_class": "Aten",
+      "position_au": {"x": 1.08, "y": 0.0, "z": -0.03},
+      "description": "Well-known potentially hazardous asteroid highlighted for public familiarity.",
+      "tags": ["neo", "hazardous", "aten"]
+    },
+    {
+      "id": "neo-phaethon",
+      "name": "3200 Phaethon",
+      "designation": "3200 Phaethon",
+      "is_hazardous": true,
+      "close_approach": "2026-03-31T13:05:00+00:00",
+      "miss_distance_km": 10800000.0,
+      "relative_velocity_kps": 18.1,
+      "estimated_diameter_min_m": 4700.0,
+      "estimated_diameter_max_m": 5600.0,
+      "orbit_class": "Apollo",
+      "position_au": {"x": 0.96, "y": 0.0, "z": 0.07},
+      "description": "Large Apollo-group object used to illustrate size and velocity filtering.",
+      "tags": ["neo", "apollo", "meteor-stream"]
+    },
+    {
+      "id": "neo-2015-rn35",
+      "name": "2015 RN35",
+      "designation": "2015 RN35",
+      "is_hazardous": false,
+      "close_approach": "2026-04-01T07:10:00+00:00",
+      "miss_distance_km": 7520000.0,
+      "relative_velocity_kps": 9.8,
+      "estimated_diameter_min_m": 20.0,
+      "estimated_diameter_max_m": 48.0,
+      "orbit_class": "Amor",
+      "position_au": {"x": 1.03, "y": 0.0, "z": -0.018},
+      "description": "Small non-hazardous object useful for close-approach sorting demos.",
+      "tags": ["neo", "amor", "small-body"]
+    },
+    {
+      "id": "neo-encke",
+      "name": "2P/Encke",
+      "designation": "2P/Encke",
+      "is_hazardous": false,
+      "close_approach": "2026-04-03T22:40:00+00:00",
+      "miss_distance_km": 51200000.0,
+      "relative_velocity_kps": 28.5,
+      "estimated_diameter_min_m": 4800.0,
+      "estimated_diameter_max_m": 6200.0,
+      "orbit_class": "Comet",
+      "position_au": {"x": 0.89, "y": 0.0, "z": -0.11},
+      "description": "Short-period comet included to keep the small-body mode broader than asteroids alone.",
+      "tags": ["comet", "neo", "short-period"]
+    }
+  ]
+}

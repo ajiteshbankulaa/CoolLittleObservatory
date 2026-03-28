@@ -1,0 +1,11 @@
+{
+  "apod": {
+    "date": "2026-03-27",
+    "title": "Auroral Veil Over Earth Orbit",
+    "explanation": "This editorial fallback entry keeps the observatory shell visually rich even when NASA content is unavailable. It is intentionally labeled as demo content and mirrors the APOD response shape used in live mode.",
+    "media_type": "image",
+    "url": "https://images-assets.nasa.gov/image/iss071e053241/iss071e053241~medium.jpg",
+    "hdurl": "https://images-assets.nasa.gov/image/iss071e053241/iss071e053241~orig.jpg",
+    "copyright": "NASA"
+  }
+}

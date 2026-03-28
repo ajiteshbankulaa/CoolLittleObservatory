@@ -1,0 +1,64 @@
+{
+  "tours": [
+    {
+      "id": "tour-earth-orbit-pulse",
+      "title": "Earth Orbit Pulse",
+      "summary": "Start with the ISS, compare crewed stations, and widen out to representative satellites.",
+      "duration_minutes": 6,
+      "tags": ["earth-orbit", "stations", "onboarding"],
+      "stops": [
+        {"object_id": "orbit-demo-iss", "mode": "earth-orbit", "title": "Flagship Station", "narrative": "Lock to the ISS to understand how the Earth-orbit mode uses propagated tracks.", "camera_hint": "follow"},
+        {"object_id": "orbit-demo-tiangong", "mode": "earth-orbit", "title": "Second Station", "narrative": "Compare orbital altitude, inclination, and ground-track shape.", "camera_hint": "orbit-wide"},
+        {"object_id": "orbit-demo-hubble", "mode": "earth-orbit", "title": "Science Asset", "narrative": "Shift from crewed infrastructure to observatories and science payloads.", "camera_hint": "detail"}
+      ]
+    },
+    {
+      "id": "tour-inner-system",
+      "title": "Inner System Scale Shift",
+      "summary": "Move from Earth out to Mars and feel how the visualization changes from orbit to heliocentric scale.",
+      "duration_minutes": 5,
+      "tags": ["solar-system", "scale", "planets"],
+      "stops": [
+        {"object_id": "earth", "mode": "solar-system", "title": "Home Reference", "narrative": "Earth sets the bridge between the orbit scene and the heliocentric model.", "camera_hint": "follow"},
+        {"object_id": "moon", "mode": "solar-system", "title": "Local Moon", "narrative": "Use the Moon to explain parent-child orbital hierarchy in the scene.", "camera_hint": "detail"},
+        {"object_id": "mars", "mode": "solar-system", "title": "Outward Expansion", "narrative": "Widen the camera to show how distance and orbit paths scale up beyond Earth.", "camera_hint": "wide"}
+      ]
+    },
+    {
+      "id": "tour-neo-watch",
+      "title": "NEO Watch Desk",
+      "summary": "Compare safe, hazardous, and cometary small bodies using close-approach filters.",
+      "duration_minutes": 4,
+      "tags": ["neo", "hazard", "small-bodies"],
+      "stops": [
+        {"object_id": "neo-2026-ab1", "mode": "neo", "title": "Moderate Flyby", "narrative": "A manageable close-approach example to orient the feed.", "camera_hint": "wide"},
+        {"object_id": "neo-99942-apophis", "mode": "neo", "title": "Hazard Language", "narrative": "Show how the UI surfaces hazard metadata without sensationalizing it.", "camera_hint": "detail"},
+        {"object_id": "neo-encke", "mode": "neo", "title": "Comet Inclusion", "narrative": "Keep the mode broader than asteroids alone by including notable comets.", "camera_hint": "wide"}
+      ]
+    },
+    {
+      "id": "tour-local-neighborhood",
+      "title": "Local Stellar Neighborhood",
+      "summary": "Tour nearby stars, bright reference systems, and the shift from live data to cataloged astronomy.",
+      "duration_minutes": 5,
+      "tags": ["deep-space", "stars", "education"],
+      "stops": [
+        {"object_id": "alpha-centauri", "mode": "deep-space", "title": "Nearest System", "narrative": "Start with the nearest stellar system and explain why this mode is catalog-driven.", "camera_hint": "detail"},
+        {"object_id": "sirius", "mode": "deep-space", "title": "Bright Benchmark", "narrative": "Compare distance and visibility with a familiar bright star.", "camera_hint": "wide"},
+        {"object_id": "trappist-1", "mode": "deep-space", "title": "Exoplanet Story", "narrative": "Use a well-known exoplanet system to bridge science and discovery.", "camera_hint": "detail"}
+      ]
+    },
+    {
+      "id": "tour-milky-way-context",
+      "title": "Milky Way Context",
+      "summary": "Move from iconic nebulae to the galactic center and clarify what is cataloged versus live.",
+      "duration_minutes": 6,
+      "tags": ["deep-space", "milky-way", "context"],
+      "stops": [
+        {"object_id": "orion-nebula", "mode": "deep-space", "title": "Star Factory", "narrative": "Use the Orion Nebula to introduce deep-sky structure.", "camera_hint": "wide"},
+        {"object_id": "sagittarius-a-star", "mode": "deep-space", "title": "Galactic Center", "narrative": "Center the story on the Milky Way core and compact-object category.", "camera_hint": "detail"},
+        {"object_id": "milky-way-plane", "mode": "deep-space", "title": "Context Layer", "narrative": "End with the broad galactic plane and explain why it is a context visualization rather than live telemetry.", "camera_hint": "panoramic"}
+      ]
+    }
+  ]
+}

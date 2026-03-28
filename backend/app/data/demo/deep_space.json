@@ -1,0 +1,124 @@
+{
+  "objects": [
+    {
+      "id": "alpha-centauri",
+      "name": "Alpha Centauri",
+      "category": "nearby-star",
+      "constellation": "Centaurus",
+      "distance_ly": 4.37,
+      "right_ascension_deg": 219.9,
+      "declination_deg": -60.8,
+      "galactic_position": {"x": 4.1, "y": -1.2, "z": 1.0},
+      "description": "Nearest stellar system to the Sun and a natural anchor for the local neighborhood view.",
+      "tags": ["nearby-star", "triple-system"]
+    },
+    {
+      "id": "sirius",
+      "name": "Sirius",
+      "category": "nearby-star",
+      "constellation": "Canis Major",
+      "distance_ly": 8.6,
+      "right_ascension_deg": 101.3,
+      "declination_deg": -16.7,
+      "galactic_position": {"x": -2.8, "y": 6.5, "z": -0.7},
+      "description": "Bright nearby star used as a familiar stellar reference point.",
+      "tags": ["nearby-star", "binary"]
+    },
+    {
+      "id": "orion-nebula",
+      "name": "Orion Nebula",
+      "category": "nebula",
+      "constellation": "Orion",
+      "distance_ly": 1344.0,
+      "right_ascension_deg": 83.8,
+      "declination_deg": -5.4,
+      "galactic_position": {"x": 220.0, "y": -35.0, "z": 90.0},
+      "description": "Iconic stellar nursery used for nebula-scale context in deep-space mode.",
+      "tags": ["nebula", "star-forming-region"]
+    },
+    {
+      "id": "eagle-nebula",
+      "name": "Eagle Nebula",
+      "category": "nebula",
+      "constellation": "Serpens",
+      "distance_ly": 7000.0,
+      "right_ascension_deg": 274.7,
+      "declination_deg": -13.8,
+      "galactic_position": {"x": 410.0, "y": 125.0, "z": -260.0},
+      "description": "Featured for the Pillars of Creation and wider Milky Way structure tours.",
+      "tags": ["nebula", "featured"]
+    },
+    {
+      "id": "pleiades",
+      "name": "Pleiades",
+      "category": "star-cluster",
+      "constellation": "Taurus",
+      "distance_ly": 444.0,
+      "right_ascension_deg": 56.75,
+      "declination_deg": 24.12,
+      "galactic_position": {"x": 130.0, "y": 98.0, "z": 40.0},
+      "description": "Open cluster that works well for cluster labeling and educational comparisons.",
+      "tags": ["cluster", "open-cluster"]
+    },
+    {
+      "id": "m13",
+      "name": "Messier 13",
+      "category": "star-cluster",
+      "constellation": "Hercules",
+      "distance_ly": 22500.0,
+      "right_ascension_deg": 250.4,
+      "declination_deg": 36.5,
+      "galactic_position": {"x": -620.0, "y": 800.0, "z": 340.0},
+      "description": "Globular cluster used to contrast dense ancient populations with open clusters.",
+      "tags": ["cluster", "globular-cluster"]
+    },
+    {
+      "id": "sagittarius-a-star",
+      "name": "Sagittarius A*",
+      "category": "compact-object",
+      "constellation": "Sagittarius",
+      "distance_ly": 26673.0,
+      "right_ascension_deg": 266.4,
+      "declination_deg": -29.0,
+      "galactic_position": {"x": 0.0, "y": 0.0, "z": 0.0},
+      "description": "Supermassive black hole candidate at the center of the Milky Way.",
+      "tags": ["compact-object", "black-hole", "galactic-center"]
+    },
+    {
+      "id": "cygnus-x1",
+      "name": "Cygnus X-1",
+      "category": "compact-object",
+      "constellation": "Cygnus",
+      "distance_ly": 6070.0,
+      "right_ascension_deg": 299.6,
+      "declination_deg": 35.2,
+      "galactic_position": {"x": -180.0, "y": 410.0, "z": 270.0},
+      "description": "Famous high-mass X-ray binary and historic black-hole candidate.",
+      "tags": ["compact-object", "x-ray-binary"]
+    },
+    {
+      "id": "trappist-1",
+      "name": "TRAPPIST-1",
+      "category": "exoplanet-system",
+      "constellation": "Aquarius",
+      "distance_ly": 39.5,
+      "right_ascension_deg": 346.6,
+      "declination_deg": -5.0,
+      "galactic_position": {"x": 34.0, "y": -9.0, "z": 16.0},
+      "description": "Compact exoplanet system highlighted for habitability-themed tours.",
+      "tags": ["exoplanet", "multi-planet-system"]
+    },
+    {
+      "id": "milky-way-plane",
+      "name": "Milky Way Plane",
+      "category": "galactic-context",
+      "constellation": null,
+      "distance_ly": null,
+      "right_ascension_deg": null,
+      "declination_deg": null,
+      "galactic_position": {"x": 0.0, "y": 0.0, "z": 0.0},
+      "description": "Context layer representing the broad structure and orientation of our galaxy.",
+      "tags": ["milky-way", "context-layer"]
+    }
+  ]
+}
